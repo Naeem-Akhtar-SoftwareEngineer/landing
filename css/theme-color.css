@@ -1,0 +1,56 @@
+/*=========================================*/
+/*Theme Color Css*/
+/*=========================================*/
+.bg-green,.services-box.bg-green,.timeline-date,.tnit-timeline-item:after{
+	background-color: #119547;
+}
+
+
+/*Text Color Css*/
+.th-color,.innovation-inner .btn-radius,.widget-about p a:hover,.widget-listed li a:hover{
+	color: #119547;
+}
+
+
+
+/*Border Color Css*/
+{
+	border-color: #119547;
+}
+
+
+/*Stroke Color Css*/
+.tnit-startergy-item .line-drawing path{
+	stroke: #119547;
+}
+
+
+
+/*=========================================*/
+/*Theme Color Variation Two Css*/
+/*=========================================*/
+.th-bg-light,.services-box,.tnit-btn:before{
+	background-color: #a5d357;
+}
+
+
+/*Text Color Css*/
+.th-color-light{
+	color: #a5d357;
+}
+
+
+
+/*Border Color Css*/
+{
+	border-color: #a5d357;
+}
+
+
+
+/*=========================================*/
+/*Theme Color Variation Three Css*/
+/*=========================================*/
+.bg-paradiso,.bg-paradiso.services-box,.tnit-btn{
+	background-color: #3f9293;
+}

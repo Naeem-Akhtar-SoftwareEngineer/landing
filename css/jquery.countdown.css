@@ -1,0 +1,83 @@
+/* jQuery Countdown styles 2.0.0. */
+
+#defaultCountdown{
+	float:left;
+	width:100%;
+	margin:0 0 100px;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown-section {
+	display: block;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+}
+.countdown-row .countdown-section{
+	padding:0 60px;
+}
+.countdown-row .countdown-section:last-child{
+	padding-right:0;
+}
+.countdown-amount {
+    font-size:100px;
+}
+.countdown-period {
+    display: block;
+	font-size:20px;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+}
+
+
+/***Countdown 2 Css***/
+.countdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+.countdown2-holder{
+	float:left;
+	width:100%;
+}
+.countdown2-holder .countdown-section {
+	display: block;
+	float: left;
+	width:50%;
+	text-align: center;
+}
+.countdown2-holder .countdown-holding span {
+	color: #888;
+}
+.countdown2-holder .countdown-section{
+	padding:0;
+	margin:0 15px;
+	border:1px solid #e1e1e1;
+	width:70px;
+}
+.countdown2-holder .countdown-amount {
+    font-size:30px;
+	padding:10px 0 5px;
+	display:inline-block;
+}
+.countdown2-holder .countdown-period {
+    display: block;
+	font-size:14px;
+	padding:8px 10px;
+	color:#fff;
+	background-color:#000;
+}
+.countdown2-holder .countdown-descr {
+	display: block;
+	width: 100%;
+}

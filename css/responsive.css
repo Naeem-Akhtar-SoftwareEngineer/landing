@@ -1,0 +1,314 @@
+
+
+
+/*==========================================*/
+	/*480px CSS*/
+/*=========================================*/
+@media (max-width: 360px) {
+
+}
+
+
+@media (max-width: 480px) {
+
+
+
+
+}
+
+
+/*=============================================*/
+/*Mobile and Small Tablet*/
+/*===============================================*/
+@media (max-width: 766px) {
+body{
+	overflow-x: hidden;
+}
+.ft-widget-section:after{
+	width: 90%;
+}
+.tnit-topbar-row{
+	text-align: center;
+}
+.navigation-innner strong.tnit-logo{
+	text-align: left;
+}
+.tnit-nav-holder .navbar{
+	margin-bottom: 15px;
+}
+.navbar-light .navbar-toggler{
+	background-color: #fff;
+	padding: 5px 10px;
+}
+.tnit-nav-holder .navbar{
+	line-height: 36px;
+	margin-top: -55px;
+	text-align: right;
+	position: relative;
+	z-index: 99;
+}
+.tnit-nav-holder .navbar-nav{
+	background-color: #222;
+	text-align: left;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.tnit-nav-holder .navbar-nav > li{
+	border-bottom: 1px solid #ccc;
+}
+.tnit-nav-holder .navbar-nav > li:last-child{
+	border-bottom: none;
+}
+li.nav-item.dropdown{
+	position: relative;
+}
+.tnit-nav-holder .navbar-nav > li > a.dropdown-toggle::after{
+	display: inline-block;
+	float: right;
+	margin-top: 12px;
+}
+.tnit-header_v2 .tnit-navigation-row .tnit-nav-holder{
+	width: 100%;
+}
+.tnit-header_v2 .tnit-nav-holder > .navbar > .navbar-collapse.show{
+	display: block;
+}
+.tnit-nav-holder .navbar-nav > li > a, .tnit-nav-holder .navbar-nav > li > a.nav-link{
+	font-size: 14px;
+	font-weight: 600;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.tnit-nav-holder .navbar-nav .dropdown-menu{
+	position: static;
+	display: none;
+	opacity: 1;
+	visibility: visible;
+}
+.tnit-nav-holder .navbar-nav li.show > .dropdown-menu{
+	display: block;
+}
+.tnit-nav-holder .navbar-nav li.show li.show .dropdown-menu li:hover.dropdown-menu{
+	display: block;
+}
+.tnit-nav-holder .navbar-nav > li .dropdown-menu .dropdown-menu{
+	left: 0;
+}
+.tnit-nav-holder .navbar-nav > li .dropdown-menu li:hover .dropdown-menu{
+	position: static;
+	opacity: 1;
+	visibility: visible;
+	display: block;
+}	
+
+.tnit-nav-holder .tnit-btn-menu{
+	position: absolute;
+	right: 0;
+	top: 0px;
+	z-index: 99;
+}
+
+.top-right{
+	justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-webki-justify-content: center;
+}
+.right-holder{
+	margin-bottom: 20px;
+}
+.tnit-heading-outer.text-center{
+	padding: 0;
+}
+
+div.tnit-masonary-layout,div.tnit-masonary-layout,div.tnit-masonary-layout_v3{
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	-ms-column-count: 1;
+	column-count: 1;
+}
+.tnit-causes-section_home_v2 div.container-fluid{
+	padding-left: 15px;
+	padding-right: 16px;
+}
+.
+	
+.pd-tb100{
+	padding: 58px 0;
+}
+.pd-t100{
+	padding-top: 58px;
+}
+.pd-b100{
+	padding-bottom: 58px;
+}
+
+
+}
+
+
+/*=============================================*/
+/*Tablet and Up Css*/
+/*===============================================*/
+@media (min-width: 767px) {
+.tnit-nav-holder .navbar-light .navbar-toggler{
+	display: none;
+}
+.tnit-nav-holder .collapse{
+	display: block;
+}
+
+
+}
+
+
+
+/*=================================================*/
+	/*768px And 992px CSS*/
+/*================================================*/
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+
+}
+
+
+@media (max-width: 960px) {
+
+.tnit-nav-holder{
+	display: block;
+}
+.tnit-nav-holder .navbar-nav{
+	justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-webkit-justify-content: center;
+}
+.tnit-nav-holder .navbar{
+	display: block;
+}
+.tnit-nav-holder .nav-right-holder{
+	display: block;
+}
+.nav-right-holder li.btn-donate{
+	float: left;
+}
+.nav-right-holder li.tp-search-ouer{
+	float: right;
+}
+
+
+
+}
+
+/*=================================================*/
+	/*1199px CSS*/
+/*================================================*/
+
+@media (max-width: 1199px) {
+
+
+}
+
+@media (max-width: 1040px) {
+
+	.container-custom .navigation-innner .row [class*="col-"]{
+		max-width: 100%;
+		width: 100%;
+		flex: 100%;
+		-moz-flex: 100%;
+		-ms-flex: 100%;
+		-webkit-flex: 100%;
+	}
+	.navigation-innner .tnit-logo{
+		display: block;
+		text-align: center;
+	}
+	.tnit-nav-holder{
+		-webkit-justify-content: flex-start;
+		-moz-justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+		justify-content: flex-start;
+	}
+
+
+
+}
+
+/*===========================================*/
+	/*1440px CSS*/
+/*===========================================*/
+
+@media (max-width: 1440px) {
+.tnit-screen-img{
+	margin-top: 150px;
+}	
+.tnit-screen-img img{
+	max-width: 100%;
+}
+.tnit-inner-banner .banner-container{
+	max-width: 90%;
+}
+.tnit-timeline-section .container{
+	max-width: 100%;
+	padding-left: 50px;
+	padding-right: 20px;
+}
+
+
+}
+/*===========================================*/
+	/*1360px CSS*/
+/*===========================================*/
+@media (max-width: 1300px) {
+
+
+
+}
+
+@media (min-width: 1360px) {
+
+}
+
+
+/*===========================================*/
+	/*1441px CSS*/
+/*===========================================*/
+@media (min-width: 1441px) {
+
+
+
+
+}
+
+
+/*===========================================*/
+	/*1600px CSS*/
+/*===========================================*/
+@media (min-width: 1600px) {
+
+.slider-caption{
+	bottom: 280px;
+}
+.slider-caption_v2{
+	bottom: 220px;
+}
+.tnit-donation-inner:before{
+	content: '';
+	background: url('../images/donation-child-img-01.png') top left no-repeat;
+	width: 575px;
+	height: 575px
+}
+
+.container.case-container{
+	float: right;
+	max-width: 1500px;
+}
+.case-container:before{
+	left: 250px;
+}
+
+
+}
